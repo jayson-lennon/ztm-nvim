@@ -1,0 +1,19 @@
+Vim provides "marks" which are locations in a file that can later be jumped to.
+Think of it like a bookmark for a webpage, except for a specific character in a
+file.
+
+1. Marks are created with the `m` command followed by a name. Marks are named
+   with a single letter or number. So using `ma` will create a mark named `a`.
+   Create a mark for this section by positioning your cursor HERE then type
+   `m1`.
+
+2. To jump to a mark, use `{name}. To jump to the line where a mark resides,
+   use '{name}. Try jumping to the line containing the 1 mark by typing '1 and
+   then jump to the exact character with `1.
+
+3. Vim keeps track of cursor position jumps in a "jumplist". After jumping to a
+   mark, `<CTRL-O>` will bring you back to your original position. Try placing
+   your cursor HERE and then jump to mark 1 with `1. Afterwards, press `<CTRL-O>`
+   to return to the HERE text.
+
+   If you want to jump forwards again through the list, use `<CTRL-I>`.
