@@ -8,7 +8,7 @@ but oftentimes we need to move a large distance.
 2. `+` will move down a line, and then position the cursor at the first
    character in that line. `-` will do the same, but go up a line instead of
    down a line.
-   
+
      Use `+` to move to the next section.
 
 3. `0` moves to the very beginning of a line, whether the character is a space
