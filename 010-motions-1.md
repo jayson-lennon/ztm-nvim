@@ -13,7 +13,7 @@
    and holding the keys. Once you are comfortable moving with the `hjkl` keys,
    move the cursor to listing 4.
 
-4. In addition to character movements, the cursor can be moved across entire
+3. In addition to character movements, the cursor can be moved across entire
    words:
 
      `e`: move to the end of the current word
@@ -31,7 +31,7 @@
    move around the words in the above paragraph. When you are comfortable with
    `e`, `w`, and `b` motions, continue on to listing 5.
 
-5. Motions can be combined with a number to repeat it a specified number of
+4. Motions can be combined with a number to repeat it a specified number of
    times. Position the cursor at "zero" below, then press `3j` to move the
    cursor down 3 lines:
    

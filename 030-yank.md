@@ -12,18 +12,7 @@
    
    You can also paste above the cursor position using `P`.
 
-3. To yank from the cursor to the end of the line, use the `Y` key. Using `Y`
-   and `p`, create a complete sentence from the fragments below:
-
-     To make homemade bread, 
-
-     and let it rise before baking until golden brown.
-
-     then knead the dough 
-
-     mix flour, yeast, water, and salt, 
-
-4. As with other Vim commands, `p` can be repeated by providing a number. Lots
+3. As with other Vim commands, `p` can be repeated by providing a number. Lots
    of coffee went into the production of these practice lessons, duplicate the
    "Coffee Shop" line below and paste it 3 times using `yy3p`:
 
@@ -35,7 +24,7 @@
      2023-09-05   Grocery Store       $85.50
      2023-09-01   Amazon              $199.00
 
-5. When a yank is performed, it gets saved into a `register`. Registers are
+4. When a yank is performed, it gets saved into a `register`. Registers are
    Vim's way of storing small bits of information about the state of the editor.
    For the purposes of yanking, registers are like mini clipboards.
 
